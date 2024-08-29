@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+      Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 15px 0 5px 0;
+    box-sizing: content-box;
+    background-color: white;
+    border-bottom: 1px solid #b6b1b1;
+  }
+  
+  #logoContainer {
+    margin-left: 2%;
+    color: #ffffff;
+  }
+  
+  .action_bar {
+    margin-right: 2%;
+  }
+  
+  #logoContainer a {
+    display: flex;
+    height: 45px;
+  }
+  
+  .navbar {
+    display: flex;
+    min-width: 500px;
+    /* box-sizing: content-box; */
+  
+    justify-content: space-evenly;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    justify-content: space-evenly;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+  
+    padding: 28px 0;
+    color: #282c3f;
+    border-bottom: 5px solid #ffffff;
+  }
+  
+  .navbar a:hover {
+    border-bottom: 4px solid #f54e77;
+  }
+  
+  .navbar a sup {
+    color: #ff3f6c;
+    font-weight: 600;
+  }
+  
+  #search {
+    display: flex;
+    min-width: 200px;
+    align-items: center;
+    height: 40px;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    border: 1px solid #f5f5f6;
+    border-radius: 4px 4px 4px 4px;
+  }
+  
+  .search_icon {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search_input {
+    font-size: 14px;
+  
+    background-color: #f5f5f6;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+  }
+  .search_input:focus {
+    outline: none;
+  }
+  
+  .action_bar {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 200px;
+  }
+  
+  .action_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .banner_container {
+    margin: 40px 0;
+  }
+  
+  .banner_image {
+    width: 100%;
+  }
+  
+  .category_heading {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: 0.15em;
+    font-size: 1.8em;
+    margin: 50px 0 50px 30px;
+    max-height: 5em;
+    font-weight: 700;
+  }
+  
+  /* .medal_brands {
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: flex-start;
+  } */
+  
+  .sale_item {
+    width: 250px;
+  }
+  
+  .copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+  }
+  
+  .footer_container {
+    padding: 30px 0px 40px 0px;
+    background: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .footer_column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #696b79;
+  
+    font-size: 15px;
+  
+    padding-bottom: 5px;
+  }
+  
+  .footer_column h3 {
+    color: #282c3f;
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
