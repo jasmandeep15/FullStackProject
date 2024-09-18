@@ -1,0 +1,17 @@
+.AppContainer {
+  display: flex;
+}
+.Container {
+  width: 100%;
+}
+.SideBar {
+  min-height: 800px;
+}
+
+.card {
+  margin: 20px 0;
+}
+.Post-Window {
+  margin-top: 10%;
+  font-size: 30px;
+}

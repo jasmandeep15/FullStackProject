@@ -1,0 +1,16 @@
+.Task {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.TaskName {
+  height: 30px;
+  font-size: 500;
+  margin: 40px;
+}
+.DeleteButton {
+  background-color: red;
+  color: white;
+}

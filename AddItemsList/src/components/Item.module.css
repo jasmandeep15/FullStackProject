@@ -1,0 +1,10 @@
+.item {
+  height: 40px;
+  padding: 5px 5px;
+}
+.itemName {
+  height: 10px;
+}
+.button {
+  float: right;
+}

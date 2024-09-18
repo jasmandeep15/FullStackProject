@@ -1,0 +1,14 @@
+.buttons {
+  height: 400px;
+  display: flex;
+
+  flex-wrap: wrap;
+  margin: 10px 40px;
+}
+
+.button {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  margin: 10px;
+}

@@ -1,0 +1,14 @@
+.input {
+  display: flex;
+  justify-content: center;
+
+  margin: 20px 0px;
+}
+.taskInput {
+  height: 30px;
+  margin-right: 50px;
+}
+
+.AddButton {
+  background-color: green;
+}
