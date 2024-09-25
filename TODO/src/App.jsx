@@ -11,18 +11,22 @@ import { TodoItemsContext } from "./store/TodoItems-store";
 function App() {
   const taskItems = [
     {
+      id: "1",
       taskName: "jasmandeep",
       taskDate: "12345",
     },
     {
+      id: "2",
       taskName: "Ramandeep",
       taskDate: "12345",
     },
     {
+      id: "3",
       taskName: "Japna chawla",
       taskDate: "12345",
     },
     {
+      id: "4",
       taskName: "Mandeep kaur",
       taskDate: "12345",
     },
