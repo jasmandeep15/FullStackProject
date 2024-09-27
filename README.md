@@ -1,2 +1,2 @@
 # FullStackProject
-This is my full stack project learning and execution Path.
+This is my full stack project learning and execution path.
